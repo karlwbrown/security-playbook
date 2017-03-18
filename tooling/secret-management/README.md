@@ -22,6 +22,10 @@ intended for use by applications automatically deployed in a container may not
 be the best choice for human users. In addition, we can use tools to help reduce
 the risk of committing sensitive information to source control.
 
+### Tasks for early in a project
 * [Choose a secret management tool for use by the team](password-manager.md)
-* Choose a secret management tool for use by the applications
+* TODO: Choose a secret management tool for use by the applications
 * [Choose a tool to help keep secrets out of source control](secrets-source-control.md)
+
+### Tasks for occasional checks
+* [Choose a tool to scan for secrets checked into source control](search-repo-secrets.md)
