@@ -4,7 +4,7 @@
 Mistakes happen. People sometimes check secrets into source control without even
 realizing it. The results can be serious, especially when the check-in is into a
 publicly-accessible repository. To reduce the risk of this happening, we can
-use a proactive tool to validate changes before they make it into source
+use a tool to proactively validate changes before they make it into source
 control.
 
 Some tools for git that work as pre-commit and pre-push hooks include:
@@ -15,8 +15,9 @@ Some tools for git that work as pre-commit and pre-push hooks include:
 
 It is a good idea to encourage the entire team to use this tool for all of their
 repositories, not just ones related to your project. There have been many
-published cases of developers checking in their dot files to popular project
-hosting sites and accidentally leaking their AWS keys or similar secrets.
+cautionary tales published about developers checking in their dot files to
+popular project hosting sites and accidentally leaking their AWS keys or similar
+secrets.
 
 **Acceptance criteria:**
 
