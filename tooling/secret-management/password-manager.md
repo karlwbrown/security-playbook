@@ -18,17 +18,17 @@ Here are five key considerations when choosing a team password manager:
   members of the team?
 * Do we want to have commercial support if something goes wrong?
 * Is there a need to have an easy-to-use graphical interface?
-* Do we need Active Directory / SAML / SSO integration?
+* Do we need Active Directory/SAML/SSO integration?
 * Is it permissible to use a cloud based service?
 
 You may also find it useful to consider:
 
 * Do we need two factor authentication in the password manager itself?
 * Does it support auditing?
-* Are a lot of people on the team already using a tool?
 * Is using open source allowed or desired?
-* Do we want breach notifications?
-* Can people continue to use it as a tool for their own personal needs after they’ve left the project?
+* If using a cloud-based service, do we want breach notifications?
+* Can people continue to use it as a tool for their own personal needs after
+  they’ve left the project?
 
 Some options for password managers include:
 
