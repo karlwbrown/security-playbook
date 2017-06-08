@@ -24,7 +24,7 @@ the risk of committing sensitive information to source control.
 
 ### Tasks for early in a project
 * [Choose a secret management tool for use by the team](password-manager.md)
-* TODO: Choose a secret management tool for use by the applications
+* [Choose an infrastructure secret management tool](infra-secret-manger.md)
 * [Choose a tool to help keep secrets out of source control](secrets-source-control.md)
 
 ### Tasks for occasional checks
