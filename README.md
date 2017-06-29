@@ -7,6 +7,15 @@ some risks and avoid others.
 
 This is an early stage resource that will be added to regularly.
 
+## Project Goals
+
+* Commoditize knowledge about how development teams can manage security risks
+  throughout the development lifecycle in a way that is relatable and accessible
+  to them.
+* Create actionable tasks to implement security controls that teams can put in
+  their backlogs along with the information needed to help justify the effort.
+* Automate creation and testing of security controls whenever possible.
+
 ## Iteration 1
 
 These are concerns that should be considered right from the outset of a new

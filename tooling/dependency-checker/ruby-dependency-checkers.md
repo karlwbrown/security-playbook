@@ -1,11 +1,10 @@
-## Task: Add an npm dependency checker into the CI pipeline
+## Task: Add an ruby dependency checker into the CI pipeline
 **Description:**
 
-Several tools exist to attempt to detect when updates for JavaScript packages
-managed using npm are available due to publicly disclosed security
-vulnerabilities. These include:
+Several tools are available to check for known vulnerabilities in Ruby gems.
+These include::
 
-* Node Security Project nsp (free, cli) https://github.com/nodesecurity/nsp
+* bundler-audit (free, cli) https://github.com/rubysec/bundler-audit
 * Hawkeye (free, cli and SaaS) https://github.com/Stono/hawkeye and https://hawkeye.website
 * Snyk (commercial) https://snyk.io/
 
@@ -28,9 +27,9 @@ There are two scenarios to regularly run the tool:
 **Acceptance criteria:**
 
 * When a check-in is made to the revision control system, then the tool should
-  be run against the Gemfile.lock for the branch the check-in was made into.
+  be run against the package.json for the branch the check-in was made into.
 * When a regular interval of time elapses, then the tool should be run against
-  the Gemfile.lock for any deployed versions of the application.
+  the package.json for any deployed versions of the application.
 * When a vulnerable component is identified, then it should send an email to
   inform the team.
 * When an error occurs running the dependency checking tool, then it should send

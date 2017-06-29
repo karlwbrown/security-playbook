@@ -1,5 +1,4 @@
 # Dependency Checkers for the Automated Pipeline
-
 ## What is it?
 * A dependency checker is a tool that attempts to detect when updates are
   available for third party dependencies (libraries, frameworks, etc) used in
@@ -21,3 +20,9 @@ into your automated CI Pipeline.
 
 * Java, .NET: [OWASP Dependency-Check](owasp-dependency-check.md)
 * JavaScript (npm, Node.js): [npm dependency checkers](npm-dependency-checkers.md)
+* Ruby: [ruby dependency checkers](ruby-dependency-checkers.md)
+
+## Additional Information
+
+* TODO: Add information about where these tools obtain information from and some
+  of the potential shortfalls in the information sources.
