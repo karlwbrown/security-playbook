@@ -5,7 +5,8 @@ best practices that project development teams should do to help stay ahead of
 common security risks. By considering these, teams can help raise visibility of
 some risks and avoid others.
 
-This is an early stage resource that will be added to regularly.
+This is an early stage resource. As it evolves further it will be moved into a
+GitBook or some other form to make navigation easier.
 
 ## Project Goals
 
@@ -16,7 +17,9 @@ This is an early stage resource that will be added to regularly.
   their backlogs along with the information needed to help justify the effort.
 * Automate creation and testing of security controls whenever possible.
 
-## Iteration 1
+## Tasks
+
+### Iteration 1
 
 These are concerns that should be considered right from the outset of a new
 project.
