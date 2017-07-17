@@ -26,7 +26,7 @@ project.
 * TODO: Software Update Notifications for Infrastructure
 * [Web App Bootstrapping](webapps/README.md)
 * TODO: Harden Development/Test/Build Systems Using Automated Tools
-* TODO: Static Analysis Tools
+* [Static Analysis Tools](tooling/static-analysis/README.md)
 
 ## Contributing
 

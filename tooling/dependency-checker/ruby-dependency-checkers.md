@@ -1,8 +1,9 @@
 ## Task: Add an ruby dependency checker into the CI pipeline
 **Description:**
 
-Several tools are available to check for known vulnerabilities in Ruby gems.
-These include::
+Several tools exist to attempt to detect when updates for Ruby gems managed with
+Bundler are available, due to publicly disclosed security vulnerabilities. These
+include:
 
 * bundler-audit (free, cli) https://github.com/rubysec/bundler-audit
 * Hawkeye (free, cli and SaaS) https://github.com/Stono/hawkeye and https://hawkeye.website
