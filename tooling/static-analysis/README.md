@@ -1,18 +1,38 @@
-# Static Analysis
+# Static Application Security Tools
 
 ## What is it?
-* Static program analysis is the analysis of computer software that is performed without actually executing programs (analysis performed on executing programs is known as dynamic analysis).
+* A static analysis tool, referred to as a Static Application Security Tool
+  (SAST) in the context of security, identifies potential security flaws in
+  source code, byte code, and binaries. SAST tools provide a powerful way to
+  identify potential defects by analyzing applications from the "inside out".
+  This provides much greater sight into possible flaws than a scanner that only
+  interacts with a application as a user would.
 
 ## Why is it needed?
-* Static analysis can detect common programming "smells"
-* There are specific tools that can look for known security vulnerabilities using static analysis
+* Sometimes the easiest or most obvious way to do something is also not secure.
+  These tools provide fast feedback if a mistake is made.
+* Continuous, fast feedback about potential vulnerabilities saves teams time and
+  stress.
+
+## When should I use this?
+* In your CI pipeline. Automatically run the scanner periodically, possibly
+  alongside other automated tests following a checkin if it can complete quickly
+  enough.
+* During manual testing. More in-depth scans can be run and verified along with
+  the other necessary manual tests. Testers can also start to do some
+  exploratory security testing after familiarizing themselves with typical
+  weaknesses.
 
 ## Tasks
-More than one tool may be needed based on the languages, frameworks, and tooling used in the project.
+Below are tasks organized by technical stack to introduce static analysis tools.
 
-* [Choose a static analysis tool for Ruby/Ruby on Rails](ruby-rails.md)
-* TODO: Choose a static analysis tool for Javascript
-* TODO: Choose a static analysis tool for Java
+* Python: [Bandit](bandit.md)
+* JavaScript: [eslint](eslint.md)
+* Ruby (Rails & Other Frameworks): [Brakeman](brakeman.md) [Dawnscanner](dawnscanner.md)
+
+## Additional Information
+
+* TODO: Add sample config file for bandit; more details on CI pipeline integration
 
 ## References
 * [Wikipedia page on static program analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
