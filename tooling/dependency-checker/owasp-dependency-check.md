@@ -7,6 +7,8 @@ dependencies (libraries, frameworks, etc) used in your application due to
 publicly disclosed security vulnerabilities. This tool is applicable for
 projects or major components that are written in Java or .NET.
 
+You can also use OWASP Dependency-Check for Python files, but the --enableExperimental flag must be used. 
+
 **How to use it:**
 
 The tool can be configured to email the development team or even break the build
